@@ -1,0 +1,28 @@
+﻿@page
+@model MyApp.Namespace.IndexModel
+@{
+}
+<div class="container">
+    <h1>Perfiles</h1>
+    <hr>
+    <a asp-page="Create" class="btn btn-primary">Crear Nuevo</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in Model.perfiles)
+            {
+                <tr>
+                    <td>@p.IdPerfil</td>
+                    <td>@p.Nombre</td>
+                    <td>@p.Descripcion</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

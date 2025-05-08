@@ -1,0 +1,32 @@
+﻿@page
+@model MyApp.Namespace.indexModel
+@{
+}
+<div class="container">
+    <h1>Desarrolladores</h1>
+    <hr>
+    <a asp-page="Create" class="btn btn-primary">Crear Nuevo</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>NOMBRES</th>
+                <th>APELLIDOS</th>
+                <th>DNI</th>
+                <th>CORREO</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in Model.desarrolladores)
+            {
+                <tr>
+                    <td>@p.IdDesarrollador</td>
+                    <td>@p.NOMBRES</td>
+                    <td>@p.APELLIDOS</td>
+                    <td>@p.DNI</td>
+                    <td>@p.CORREO</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
