@@ -6,6 +6,6 @@ namespace demoaspcore.Models
         public string? NOMBRES { get; set; }
         public string? APELLIDOS { get; set; }
         public string? DNI { get; set; }
-        public string? CORREO { get; set; }
+        public string? CORREO  { get; set; }
     }
 }

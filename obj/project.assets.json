@@ -172,23 +172,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AlumnoETI\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\STEVEN SSAMAN\\demoaspcore\\demoaspcore.csproj",
+      "projectUniqueName": "C:\\ejercicio\\steven-demo\\demoaspcore.csproj",
       "projectName": "demoaspcore",
-      "projectPath": "D:\\STEVEN SSAMAN\\demoaspcore\\demoaspcore.csproj",
-      "packagesPath": "C:\\Users\\AlumnoETI\\.nuget\\packages\\",
-      "outputPath": "D:\\STEVEN SSAMAN\\demoaspcore\\obj\\",
+      "projectPath": "C:\\ejercicio\\steven-demo\\demoaspcore.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\ejercicio\\steven-demo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\AlumnoETI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -3,17 +3,30 @@
 @{
 }
 <div class="container">
-    <h1>Insercion de Desarrollador</h1>
+    <h1>Inserción de Desarrollador</h1>
     <hr>
-    <form action="" method="post">
-        <input type="text" asp-for="perfil.NOMBRES" class="form-control" placeholder="NOMBRES">
-        <hr>
-        <input type="text" asp-for="perfil.APELLIDOS" class="form-control" placeholder="APELLIDOS">
-        <hr>
-        <input type="text" asp-for="perfil.DNI" class="form-control" placeholder="DNI">
-        <hr>
-        <input type="text" asp-for="perfil.CORREO" class="form-control" placeholder="CORREO">
-        <hr>
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="desarrollador.NOMBRES" class="control-label"></label>
+            <input asp-for="desarrollador.NOMBRES" class="form-control" placeholder="NOMBRES" />
+            <span asp-validation-for="desarrollador.NOMBRES" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="desarrollador.APELLIDOS" class="control-label"></label>
+            <input asp-for="desarrollador.APELLIDOS" class="form-control" placeholder="APELLIDOS" />
+            <span asp-validation-for="desarrollador.APELLIDOS" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="desarrollador.DNI" class="control-label"></label>
+            <input asp-for="desarrollador.DNI" class="form-control" placeholder="DNI" />
+            <span asp-validation-for="desarrollador.DNI" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="desarrollador.CORREO" class="control-label"></label>
+            <input asp-for="desarrollador.CORREO" class="form-control" placeholder="CORREO" />
+            <span asp-validation-for="desarrollador.CORREO" class="text-danger"></span>
+        </div>
         <button type="submit" class="btn btn-primary">Guardar</button>
+        <a asp-page="Index" class="btn btn-secondary">Cancelar</a>
     </form>
 </div>

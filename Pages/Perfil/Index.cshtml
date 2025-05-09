@@ -2,10 +2,11 @@
 @model MyApp.Namespace.IndexModel
 @{
 }
+
 <div class="container">
-    <h1>Perfiles</h1>
+    <h1>Perfil</h1>
     <hr>
-    <a asp-page="Create" class="btn btn-primary">Crear Nuevo</a>
+    <a asp-page="Create" class="btn btn-primary">Crear nuevo</a>
     <table class="table">
         <thead>
             <tr>
@@ -15,8 +16,7 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var p in Model.perfiles)
-            {
+            @foreach(var p in Model.perfiles){
                 <tr>
                     <td>@p.IdPerfil</td>
                     <td>@p.Nombre</td>
